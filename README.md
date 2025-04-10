@@ -13,3 +13,6 @@
   - [1.2. Modelo de Negocio](./1/1.2/1.2.md)
   - [1.3. Estructura del Equipo](./1/1.3/1.3.md)
   - [1.4. Listado de Stakeholders](./1/1.4/1.4.md)
+- [2. Requerimientos del Sistema](./2/2.md)
+  - [2.1. Requerimientos Funcionales](./2/2.1/2.1.md)
+  - [2.2. Requerimientos de Atributos de Calidad (Escenarios)](./2/2.2/2.2.md)
