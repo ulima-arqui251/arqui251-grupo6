@@ -7,7 +7,6 @@
   - [0.3. Integrante 3](./0/0.3/0.3.md)
   - [0.4. Integrante 4](./0/0.4/0.4.md)
   - [0.5. Integrante 5](./0/0.5/0.5.md)
-  - [0.6. Integrante 6](./0/0.6/0.6.md)
 - [1. Caso de Negocio](./1/1.md)
   - [1.1. Generalidades](./1/1.1/1.1.md)
   - [1.2. Modelo de Negocio](./1/1.2/1.2.md)
