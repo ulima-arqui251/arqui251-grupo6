@@ -1,4 +1,7 @@
-Estado: Finalizado
+Estado: En progreso
 
 Restante:
--- 
+-- Revisar 1.1
+-- Revisar 1.2
+-- Revisar 1.3
+-- Revisar 1.4
