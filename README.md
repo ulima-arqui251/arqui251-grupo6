@@ -1,6 +1,6 @@
 # Proyecto Grupal - Arquitectura de Software
 
-## Tabla de Contenido
+## Tabla de Contenido — SingleTone
 - [0. Acerca del Grupo](./0/0.md)
   - [0.1. Integrante 1](./0/0.1/0.1.md)
   - [0.2. Integrante 2](./0/0.2/0.2.md)
