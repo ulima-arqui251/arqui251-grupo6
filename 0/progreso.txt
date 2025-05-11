@@ -1,5 +1,4 @@
-Estado: En progreso
+Estado: Finalizado
 
 Restante:
--- Información de Angel
--- Información de Dmitri
+-- 
