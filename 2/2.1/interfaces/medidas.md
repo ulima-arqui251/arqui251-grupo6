@@ -1,7 +1,7 @@
 ## Espaciados (generales)
 - Los títulos tienen 150px de espacio
-- El menubar tiene 60px con el contenido superior !!
 - Los laterales deben dejarse vacíos con un 65px
+- El footer debe guardar un 125 con el último elemento superior.
 
 ## Fuentes (generales)
 - Roboto
