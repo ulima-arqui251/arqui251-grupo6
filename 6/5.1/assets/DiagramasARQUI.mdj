@@ -377,7 +377,7 @@
 									"top": 695,
 									"width": 216,
 									"height": 13,
-									"text": "[Software System]",
+									"text": "[Software System: Auth0]",
 									"wordWrap": true
 								},
 								{
@@ -587,12 +587,12 @@
 									},
 									"font": "Times New Roman;9;0",
 									"parentStyle": false,
-									"left": 784,
+									"left": 776,
 									"top": 613,
 									"width": 168,
 									"height": 9,
-									"alpha": 0.7597627049414765,
-									"distance": 137.93114224133723,
+									"alpha": 0.8014395137242367,
+									"distance": 132.24598292575845,
 									"hostEdge": {
 										"$ref": "AAAAAAGXCZcWmP7jl5w="
 									},
@@ -1003,7 +1003,7 @@
 									"top": 1815,
 									"width": 216,
 									"height": 13,
-									"text": "[Software System]",
+									"text": "[Software System: Auth0]",
 									"wordWrap": true
 								},
 								{
@@ -1239,7 +1239,7 @@
 									"top": 2055,
 									"width": 208,
 									"height": 26,
-									"text": "[Container: Node.js + Express + GraphQL]",
+									"text": "[Container: Node.js + Express + ApiREST]",
 									"wordWrap": true
 								},
 								{
@@ -2694,11 +2694,11 @@
 									"font": "Times New Roman;9;0",
 									"parentStyle": false,
 									"left": 3208,
-									"top": 1992,
+									"top": 2000,
 									"width": 50.98095703125,
 									"height": 18,
-									"alpha": 1.5581386483988455,
-									"distance": 79.00632886041473,
+									"alpha": 1.5567126101549007,
+									"distance": 71.00704190430693,
 									"hostEdge": {
 										"$ref": "AAAAAAGXC6G+MrslBEY="
 									},
@@ -2718,11 +2718,11 @@
 									"font": "Times New Roman;9;0",
 									"parentStyle": false,
 									"left": 3208,
-									"top": 1962,
+									"top": 1952,
 									"width": 56,
 									"height": 36,
-									"alpha": 1.5308175398313515,
-									"distance": 100.07996802557443,
+									"alpha": 1.534448614986837,
+									"distance": 110.07270324653611,
 									"hostEdge": {
 										"$ref": "AAAAAAGXC6G+MrslBEY="
 									},
@@ -4234,7 +4234,7 @@
 									"top": 1199,
 									"width": 216,
 									"height": 13,
-									"text": "[Software System]",
+									"text": "[Software System: Auth0]",
 									"wordWrap": true
 								},
 								{
@@ -4392,7 +4392,7 @@
 									"top": 1436,
 									"width": 296,
 									"height": 13,
-									"text": "[Container: Node.js + Express + GraphQL]",
+									"text": "[Container: Node.js + Express + ApiREST]",
 									"wordWrap": true
 								},
 								{
@@ -13249,6 +13249,7 @@
 						"$ref": "AAAAAAGIJ9MNFXaLtCg="
 					},
 					"name": "Proveedor de Identidad (IdP)",
+					"technology": "Auth0",
 					"description": "Gestiona autenticación y verificación de usuarios"
 				},
 				{
@@ -13562,7 +13563,7 @@
 							"technology": "HTTP/REST + WebSocket + Express + Socket.io"
 						}
 					],
-					"technology": "Node.js + Express + GraphQL",
+					"technology": "Node.js + Express + ApiREST",
 					"description": "Punto de entrada unificado con enrutamiento y autenticación",
 					"kind": "etc"
 				},
