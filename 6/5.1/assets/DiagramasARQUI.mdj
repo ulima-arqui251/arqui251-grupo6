@@ -715,6 +715,159 @@
 							"technologyLabel": {
 								"$ref": "AAAAAAGXCZg3y/8Afik="
 							}
+						},
+						{
+							"_type": "C4SoftwareSystemView",
+							"_id": "AAAAAAGXV3Uzm0FdFJA=",
+							"_parent": {
+								"$ref": "AAAAAAGIJ9MNFnaM7XY="
+							},
+							"model": {
+								"$ref": "AAAAAAGXV3UzmkFb/f4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXV3Uzm0FeWBU=",
+									"_parent": {
+										"$ref": "AAAAAAGXV3Uzm0FdFJA="
+									},
+									"fillColor": "#6ED8A2",
+									"font": "Arial;13;1",
+									"parentStyle": true,
+									"left": 624,
+									"top": 800,
+									"width": 224,
+									"height": 13,
+									"text": "Proveedor de LLMs",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXV3UznEFfjkI=",
+									"_parent": {
+										"$ref": "AAAAAAGXV3Uzm0FdFJA="
+									},
+									"fillColor": "#6ED8A2",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 624,
+									"top": 815,
+									"width": 224,
+									"height": 13,
+									"text": "[Software System: Hugging Face API]",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXV3UznEFgqtg=",
+									"_parent": {
+										"$ref": "AAAAAAGXV3Uzm0FdFJA="
+									},
+									"fillColor": "#6ED8A2",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 624,
+									"top": 838,
+									"width": 224,
+									"height": 26,
+									"text": "Proveedor externo de LLM para recomendaciones musicales.",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#6ED8A2",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 616,
+							"top": 792,
+							"width": 240,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGXV3Uzm0FeWBU="
+							},
+							"technologyLabel": {
+								"$ref": "AAAAAAGXV3UznEFfjkI="
+							},
+							"descriptionLabel": {
+								"$ref": "AAAAAAGXV3UznEFgqtg="
+							}
+						},
+						{
+							"_type": "C4RelationshipView",
+							"_id": "AAAAAAGXV3eJ5kGA2jE=",
+							"_parent": {
+								"$ref": "AAAAAAGIJ9MNFnaM7XY="
+							},
+							"model": {
+								"$ref": "AAAAAAGXV3eJ5kF+xNY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGXV3eJ5kGBpX8=",
+									"_parent": {
+										"$ref": "AAAAAAGXV3eJ5kGA2jE="
+									},
+									"model": {
+										"$ref": "AAAAAAGXV3eJ5kF+xNY="
+									},
+									"fillColor": "#FFFFFF00",
+									"font": "Times New Roman;9;0",
+									"parentStyle": false,
+									"left": 607,
+									"top": 767,
+									"width": 120,
+									"height": 9,
+									"alpha": -0.6690430209827707,
+									"distance": 109.63576058932597,
+									"hostEdge": {
+										"$ref": "AAAAAAGXV3eJ5kGA2jE="
+									},
+									"edgePosition": 1,
+									"text": "Solicita la recomendación",
+									"wordWrap": true
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGXV3eJ5kGCd78=",
+									"_parent": {
+										"$ref": "AAAAAAGXV3eJ5kGA2jE="
+									},
+									"model": {
+										"$ref": "AAAAAAGXV3eJ5kF+xNY="
+									},
+									"fillColor": "#FFFFFF00",
+									"font": "Times New Roman;9;0",
+									"parentStyle": false,
+									"left": 749,
+									"top": 768,
+									"width": 88.1181640625,
+									"height": 9,
+									"alpha": 0.5933501317427419,
+									"distance": 103.73041983911952,
+									"hostEdge": {
+										"$ref": "AAAAAAGXV3eJ5kGA2jE="
+									},
+									"edgePosition": 1,
+									"text": "[HTTPS/REST API]",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGXV3Uzm0FdFJA="
+							},
+							"tail": {
+								"$ref": "AAAAAAGXCXy9cfzhcto="
+							},
+							"points": "736:580;736:792",
+							"descriptionLabel": {
+								"$ref": "AAAAAAGXV3eJ5kGBpX8="
+							},
+							"technologyLabel": {
+								"$ref": "AAAAAAGXV3eJ5kGCd78="
+							}
 						}
 					]
 				},
@@ -13104,6 +13257,21 @@
 							},
 							"technology": "OAuth 2.0/HTTPS",
 							"description": "Autentica usuarios y gestiona sesiones"
+						},
+						{
+							"_type": "C4Relationship",
+							"_id": "AAAAAAGXV3eJ5kF+xNY=",
+							"_parent": {
+								"$ref": "AAAAAAGXCXh7AfxcjSQ="
+							},
+							"source": {
+								"$ref": "AAAAAAGXCXh7AfxcjSQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGXV3UzmkFb/f4="
+							},
+							"technology": "HTTPS/REST API",
+							"description": "Solicita la recomendación"
 						}
 					],
 					"description": "Plataforma de gestión y valoración de biblioteca musical\n"
@@ -15133,6 +15301,16 @@
 					},
 					"name": "Notificador Premium",
 					"description": "WebSockets para upgrades"
+				},
+				{
+					"_type": "C4SoftwareSystem",
+					"_id": "AAAAAAGXV3UzmkFb/f4=",
+					"_parent": {
+						"$ref": "AAAAAAGIJ9MNFXaLtCg="
+					},
+					"name": "Proveedor de LLMs",
+					"technology": "Hugging Face API",
+					"description": "Proveedor externo de LLM para recomendaciones musicales."
 				}
 			]
 		}
