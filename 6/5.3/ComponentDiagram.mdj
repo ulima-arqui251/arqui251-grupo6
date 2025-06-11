@@ -1710,7 +1710,7 @@
 									"top": 2439,
 									"width": 216,
 									"height": 26,
-									"text": "[Container: Node.js + Express + Stripe API]",
+									"text": "[Container: Node.js + Express + Stripe API + Redis]",
 									"wordWrap": true
 								},
 								{
@@ -1727,7 +1727,7 @@
 									"top": 2475,
 									"width": 216,
 									"height": 52,
-									"text": "Control de suscripciones premium, procesamiento de pagos con Stripe y gestión de límites de uso con contadores en tiempo real",
+									"text": "Control de suscripciones premium, procesamiento de pagos con Stripe y gestión de límites de uso con contadores en tiempo real usando Redis",
 									"wordWrap": true
 								}
 							],
@@ -1789,8 +1789,8 @@
 									"left": 3392,
 									"top": 2279,
 									"width": 224,
-									"height": 13,
-									"text": "[Container: Node.js + DataLoader]",
+									"height": 26,
+									"text": "[Container: Node.js + DataLoader + Redis]",
 									"wordWrap": true
 								},
 								{
@@ -1804,10 +1804,10 @@
 									"font": "Times New Roman;13;0",
 									"parentStyle": true,
 									"left": 3392,
-									"top": 2302,
+									"top": 2315,
 									"width": 224,
-									"height": 39,
-									"text": "Construcción y entrega de perfiles completos de usuario con datos agregados de múltiples módulos",
+									"height": 65,
+									"text": "Construcción y entrega de perfiles completos de usuario con datos agregados de múltiples módulos con paginación basada en cursores y autocompletado con caché Redis",
 									"wordWrap": true
 								}
 							],
@@ -1818,7 +1818,7 @@
 							"left": 3384,
 							"top": 2256,
 							"width": 240,
-							"height": 112,
+							"height": 132,
 							"nameLabel": {
 								"$ref": "AAAAAAGXC365L7jPzyE="
 							},
@@ -1887,7 +1887,7 @@
 									"top": 2467,
 									"width": 216,
 									"height": 39,
-									"text": "Genera recomendaciones personalizadas usando LLMs basadas en valoraciones y géneros preferidos (solo premium)",
+									"text": "Genera recomendaciones personalizadas usando LLMs basado en valoraciones y géneros preferidos (usuario premium)",
 									"wordWrap": true
 								}
 							],
@@ -3143,83 +3143,6 @@
 							},
 							"technologyLabel": {
 								"$ref": "AAAAAAGXC61KaruurZk="
-							}
-						},
-						{
-							"_type": "C4RelationshipView",
-							"_id": "AAAAAAGXC6101Lu5vqY=",
-							"_parent": {
-								"$ref": "AAAAAAGXCW0SZfxTYPQ="
-							},
-							"model": {
-								"$ref": "AAAAAAGXC61007u38qA="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGXC6101Lu6t4o=",
-									"_parent": {
-										"$ref": "AAAAAAGXC6101Lu5vqY="
-									},
-									"model": {
-										"$ref": "AAAAAAGXC61007u38qA="
-									},
-									"fillColor": "#FFFFFF00",
-									"font": "Times New Roman;7;0",
-									"parentStyle": false,
-									"left": 3376,
-									"top": 2600,
-									"width": 92,
-									"height": 14,
-									"alpha": 3.233172494439759,
-									"distance": 98.41239759298622,
-									"hostEdge": {
-										"$ref": "AAAAAAGXC6101Lu5vqY="
-									},
-									"edgePosition": 1,
-									"text": "Almacena recomendaciones precalculadas y perfiles\n",
-									"wordWrap": true
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGXC6101Lu7UVE=",
-									"_parent": {
-										"$ref": "AAAAAAGXC6101Lu5vqY="
-									},
-									"model": {
-										"$ref": "AAAAAAGXC61007u38qA="
-									},
-									"fillColor": "#FFFFFF00",
-									"font": "Times New Roman;7;0",
-									"parentStyle": false,
-									"left": 3176,
-									"top": 2624,
-									"width": 70,
-									"height": 7,
-									"alpha": 0.09703939451574728,
-									"distance": 113.53413583587978,
-									"hostEdge": {
-										"$ref": "AAAAAAGXC6101Lu5vqY="
-									},
-									"edgePosition": 1,
-									"text": "[Mongoose/Read-Write]",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"parentStyle": false,
-							"head": {
-								"$ref": "AAAAAAGXC4m2grmFbuQ="
-							},
-							"tail": {
-								"$ref": "AAAAAAGXC4EnQbkInTc="
-							},
-							"points": "3464:2528;3464:2616;3184:2616;3184:2656",
-							"descriptionLabel": {
-								"$ref": "AAAAAAGXC6101Lu6t4o="
-							},
-							"technologyLabel": {
-								"$ref": "AAAAAAGXC6101Lu7UVE="
 							}
 						},
 						{
@@ -5097,9 +5020,9 @@
 									"fillColor": "#FFFFFF",
 									"font": "Times New Roman;22;1",
 									"parentStyle": true,
-									"left": 1040,
+									"left": 984,
 									"top": 1864,
-									"width": 1784,
+									"width": 1840,
 									"height": 22,
 									"text": "Software de Singletone",
 									"wordWrap": true
@@ -5114,9 +5037,9 @@
 									"fillColor": "#FFFFFF",
 									"font": "Times New Roman;22;0",
 									"parentStyle": true,
-									"left": 1040,
+									"left": 984,
 									"top": 1888,
-									"width": 1784,
+									"width": 1840,
 									"height": 22,
 									"text": "[Container]",
 									"wordWrap": true
@@ -5131,9 +5054,9 @@
 									"fillColor": "#FFFFFF",
 									"font": "Times New Roman;22;0",
 									"parentStyle": true,
-									"left": 1040,
+									"left": 984,
 									"top": 1920,
-									"width": 1784,
+									"width": 1840,
 									"wordWrap": true
 								}
 							],
@@ -5141,9 +5064,9 @@
 							"fillColor": "#FFFFFF",
 							"font": "Times New Roman;22;0",
 							"parentStyle": false,
-							"left": 1032,
+							"left": 976,
 							"top": 1856,
-							"width": 1800,
+							"width": 1856,
 							"height": 1416,
 							"nameLabel": {
 								"$ref": "AAAAAAGXDBR9iMDgeyQ="
@@ -9486,8 +9409,8 @@
 									"left": 1864,
 									"top": 2599,
 									"width": 112,
-									"height": 9,
-									"text": "a",
+									"height": 18,
+									"text": "Consume APIs de LLMs para generar recomendaciones",
 									"wordWrap": true
 								}
 							],
@@ -9604,7 +9527,7 @@
 									"font": "Times New Roman;9;1",
 									"parentStyle": true,
 									"left": 2048,
-									"top": 2680,
+									"top": 2672,
 									"width": 112,
 									"height": 9,
 									"text": "Generador de Sugerencias",
@@ -9620,7 +9543,7 @@
 									"font": "Times New Roman;9;0",
 									"parentStyle": true,
 									"left": 2048,
-									"top": 2691,
+									"top": 2683,
 									"width": 112,
 									"height": 9,
 									"text": "[Component]",
@@ -9636,10 +9559,10 @@
 									"font": "Times New Roman;9;0",
 									"parentStyle": true,
 									"left": 2048,
-									"top": 2710,
+									"top": 2702,
 									"width": 112,
-									"height": 9,
-									"text": "Crea listas personalizadas",
+									"height": 27,
+									"text": "Procesa respuestas de LLM y genera listas de recomendaciones",
 									"wordWrap": true
 								}
 							],
@@ -9647,9 +9570,9 @@
 							"font": "Times New Roman;9;0",
 							"parentStyle": false,
 							"left": 2040,
-							"top": 2672,
+							"top": 2664,
 							"width": 128,
-							"height": 64,
+							"height": 73,
 							"nameLabel": {
 								"$ref": "AAAAAAGXDa7yCcwSFoo="
 							},
@@ -9714,8 +9637,8 @@
 									"left": 2048,
 									"top": 2590,
 									"width": 112,
-									"height": 18,
-									"text": "Almacena resultados precalculados",
+									"height": 27,
+									"text": "Almacena recomendaciones generadas por LLM para optimizar rendimiento",
 									"wordWrap": true
 								}
 							],
@@ -9725,7 +9648,7 @@
 							"left": 2040,
 							"top": 2552,
 							"width": 128,
-							"height": 64,
+							"height": 73,
 							"nameLabel": {
 								"$ref": "AAAAAAGXDa8gyMwiA90="
 							},
@@ -9781,17 +9704,17 @@
 									"fontColor": "#FFFFFF",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1824,
-									"top": 2631,
-									"width": 80,
+									"left": 1927,
+									"top": 2632,
+									"width": 97,
 									"height": 24,
-									"alpha": -1.570796697165267,
+									"alpha": 1.5707958004791072,
 									"distance": 56,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDbC14MxSdN0="
 									},
 									"edgePosition": 1,
-									"text": "[Python Function Call + NumPy Arrays + scikit-learn]",
+									"text": "[HuggingFace API Client + HTTP Requests + JSON Processing]",
 									"wordWrap": true
 								}
 							],
@@ -9858,17 +9781,17 @@
 									"fontColor": "#FFFFFF",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1968,
-									"top": 2750,
-									"width": 87,
+									"left": 1960,
+									"top": 2749,
+									"width": 104,
 									"height": 24,
-									"alpha": -1.587743687158452,
-									"distance": 59.00847396772772,
+									"alpha": -1.5707961573033713,
+									"distance": 59,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDbDXrcxfGkE="
 									},
 									"edgePosition": 1,
-									"text": "[scikit-learn Pipeline + pandas DataFrames + ML Models]",
+									"text": "[LLM Prompt Engineering + Content Filtering + Recommendation Logic]",
 									"wordWrap": true
 								}
 							],
@@ -9934,12 +9857,12 @@
 									"fontColor": "#FFFFFF",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 2115,
-									"top": 2631,
+									"left": 2112,
+									"top": 2630,
 									"width": 57,
 									"height": 32,
-									"alpha": -1.6730026485070628,
-									"distance": 39.20459156782532,
+									"alpha": -1.653937009379049,
+									"distance": 36.124783736376884,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDbD2vcxsyxU="
 									},
@@ -9958,7 +9881,7 @@
 								"$ref": "AAAAAAGXDa7yCcwR2GE="
 							},
 							"lineStyle": 1,
-							"points": "2104:2671;2104:2617",
+							"points": "2104:2663;2104:2626",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDbD2vcxtSpo="
 							},
@@ -12351,166 +12274,6 @@
 						},
 						{
 							"_type": "C4ContainerView",
-							"_id": "AAAAAAGXDfdqGp1/6gw=",
-							"_parent": {
-								"$ref": "AAAAAAGXCW33HfxYE6M="
-							},
-							"model": {
-								"$ref": "AAAAAAGXC4YI7LllSWQ="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXDfdqGp2AIN0=",
-									"_parent": {
-										"$ref": "AAAAAAGXDfdqGp1/6gw="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;20;1",
-									"parentStyle": true,
-									"left": 1272,
-									"top": 3038,
-									"width": 264,
-									"height": 20,
-									"text": "Base de Datos Relacional ",
-									"wordWrap": true
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXDfdqGp2BAHA=",
-									"_parent": {
-										"$ref": "AAAAAAGXDfdqGp1/6gw="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;20;0",
-									"parentStyle": true,
-									"left": 1272,
-									"top": 3060,
-									"width": 264,
-									"height": 20,
-									"text": "[Container: PostreSQL]",
-									"wordWrap": true
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXDfdqGp2CqNo=",
-									"_parent": {
-										"$ref": "AAAAAAGXDfdqGp1/6gw="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;20;0",
-									"parentStyle": true,
-									"left": 1272,
-									"top": 3090,
-									"width": 264,
-									"height": 40,
-									"text": "Usuarios, planes, suscripciones, metadatos estructurados",
-									"wordWrap": true
-								}
-							],
-							"fillColor": "#C0392B",
-							"fontColor": "#FFFFFF",
-							"font": "Times New Roman;20;0",
-							"parentStyle": false,
-							"left": 1264,
-							"top": 2968,
-							"width": 280,
-							"height": 248,
-							"nameLabel": {
-								"$ref": "AAAAAAGXDfdqGp2AIN0="
-							},
-							"technologyLabel": {
-								"$ref": "AAAAAAGXDfdqGp2BAHA="
-							},
-							"descriptionLabel": {
-								"$ref": "AAAAAAGXDfdqGp2CqNo="
-							}
-						},
-						{
-							"_type": "C4ContainerView",
-							"_id": "AAAAAAGXDfdqGp2DLl8=",
-							"_parent": {
-								"$ref": "AAAAAAGXCW33HfxYE6M="
-							},
-							"model": {
-								"$ref": "AAAAAAGXC4m2gbmDDhM="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXDfdqGp2EgKo=",
-									"_parent": {
-										"$ref": "AAAAAAGXDfdqGp2DLl8="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;20;1",
-									"parentStyle": true,
-									"left": 1832,
-									"top": 3038,
-									"width": 272,
-									"height": 20,
-									"text": "Base de Datos Documental ",
-									"wordWrap": true
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXDfdqGp2FNsM=",
-									"_parent": {
-										"$ref": "AAAAAAGXDfdqGp2DLl8="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;20;0",
-									"parentStyle": true,
-									"left": 1832,
-									"top": 3060,
-									"width": 272,
-									"height": 20,
-									"text": "[Container: MongoDB]",
-									"wordWrap": true
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXDfdqGp2GHR4=",
-									"_parent": {
-										"$ref": "AAAAAAGXDfdqGp2DLl8="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;20;0",
-									"parentStyle": true,
-									"left": 1832,
-									"top": 3090,
-									"width": 272,
-									"height": 40,
-									"text": "Catálogo musical y biblioteca de usuarios",
-									"wordWrap": true
-								}
-							],
-							"fillColor": "#C0392B",
-							"fontColor": "#FFFFFF",
-							"font": "Times New Roman;20;0",
-							"parentStyle": false,
-							"left": 1824,
-							"top": 2968,
-							"width": 288,
-							"height": 248,
-							"nameLabel": {
-								"$ref": "AAAAAAGXDfdqGp2EgKo="
-							},
-							"technologyLabel": {
-								"$ref": "AAAAAAGXDfdqGp2FNsM="
-							},
-							"descriptionLabel": {
-								"$ref": "AAAAAAGXDfdqGp2GHR4="
-							}
-						},
-						{
-							"_type": "C4ContainerView",
 							"_id": "AAAAAAGXDfdqGp2HTPI=",
 							"_parent": {
 								"$ref": "AAAAAAGXCW33HfxYE6M="
@@ -12529,8 +12292,8 @@
 									"fontColor": "#FFFFFF",
 									"font": "Times New Roman;20;1",
 									"parentStyle": true,
-									"left": 2360,
-									"top": 3038,
+									"left": 2456,
+									"top": 3102,
 									"width": 280,
 									"height": 20,
 									"text": "Base de Datos Clave-Valor",
@@ -12546,8 +12309,8 @@
 									"fontColor": "#FFFFFF",
 									"font": "Times New Roman;20;0",
 									"parentStyle": true,
-									"left": 2360,
-									"top": 3060,
+									"left": 2456,
+									"top": 3124,
 									"width": 280,
 									"height": 20,
 									"text": "[Container: Redis]",
@@ -12563,8 +12326,8 @@
 									"fontColor": "#FFFFFF",
 									"font": "Times New Roman;20;0",
 									"parentStyle": true,
-									"left": 2360,
-									"top": 3090,
+									"left": 2456,
+									"top": 3154,
 									"width": 280,
 									"height": 40,
 									"text": "Cache de sesiones y contadores de límites",
@@ -12575,8 +12338,8 @@
 							"fontColor": "#FFFFFF",
 							"font": "Times New Roman;20;0",
 							"parentStyle": false,
-							"left": 2352,
-							"top": 2968,
+							"left": 2448,
+							"top": 3032,
 							"width": 296,
 							"height": 248,
 							"nameLabel": {
@@ -12610,17 +12373,17 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1088,
-									"top": 2927,
-									"width": 37.578125,
-									"height": 24,
-									"alpha": 0.057758817436166066,
-									"distance": 588.9821729050889,
+									"left": 1037,
+									"top": 2999,
+									"width": 42.64453125,
+									"height": 40,
+									"alpha": 0.05085431975692001,
+									"distance": 668.8647097881603,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDfloIJ3ahZQ="
 									},
 									"edgePosition": 1,
-									"text": "Reads from and writes",
+									"text": "Gestiona operaciones CRUD de usuarios y autenticación",
 									"wordWrap": true
 								},
 								{
@@ -12634,12 +12397,12 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1072,
-									"top": 2887,
+									"left": 1032,
+									"top": 2886,
 									"width": 65.76806640625,
 									"height": 24,
-									"alpha": 0.058327928325212275,
-									"distance": 548.9335114565333,
+									"alpha": 0.07299621748443386,
+									"distance": 548.4605728764831,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDfloIJ3ahZQ="
 									},
@@ -12651,12 +12414,12 @@
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"head": {
-								"$ref": "AAAAAAGXDfdqGp1/6gw="
+								"$ref": "AAAAAAGXXktz9EUNqhs="
 							},
 							"tail": {
 								"$ref": "AAAAAAGXDDZEF8bqndw="
 							},
-							"points": "1464:2312;1464:2352;1072:2352;1072:3088;1264:3088",
+							"points": "1464:2312;1464:2352;1024:2352;1024:3056;1120:3056",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDfloIJ3bcUU="
 							},
@@ -12685,8 +12448,8 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 2288,
-									"top": 2934,
+									"left": 2533,
+									"top": 2814,
 									"width": 27.4599609375,
 									"height": 8,
 									"alpha": 0.1957006640959753,
@@ -12709,8 +12472,8 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 2288,
-									"top": 2911,
+									"left": 2468,
+									"top": 2764,
 									"width": 119.20263671875,
 									"height": 16,
 									"alpha": 0.4124104574406722,
@@ -12731,87 +12494,12 @@
 							"tail": {
 								"$ref": "AAAAAAGXDZ1b/Mm81No="
 							},
-							"points": "2168:2304;2256:2304;2256:3120;2352:3120",
+							"points": "2168:2304;2320:2304;2320:2864;2552:2864;2552:3032",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDftuOZ37cJU="
 							},
 							"technologyLabel": {
 								"$ref": "AAAAAAGXDftuOZ38K6w="
-							}
-						},
-						{
-							"_type": "C4RelationshipView",
-							"_id": "AAAAAAGXDfzoYJ4ZQGk=",
-							"_parent": {
-								"$ref": "AAAAAAGXCW33HfxYE6M="
-							},
-							"model": {
-								"$ref": "AAAAAAGXDfzoYJ4X7qI="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGXDfzoYJ4aOjM=",
-									"_parent": {
-										"$ref": "AAAAAAGXDfzoYJ4ZQGk="
-									},
-									"model": {
-										"$ref": "AAAAAAGXDfzoYJ4X7qI="
-									},
-									"font": "Times New Roman;8;0",
-									"parentStyle": false,
-									"left": 1776,
-									"top": 2944,
-									"width": 33.22998046875,
-									"height": 8,
-									"alpha": 1.4541126799716613,
-									"distance": 549.7381194714443,
-									"hostEdge": {
-										"$ref": "AAAAAAGXDfzoYJ4ZQGk="
-									},
-									"edgePosition": 1,
-									"text": "Uses\n",
-									"wordWrap": true
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGXDfzoYJ4bEHg=",
-									"_parent": {
-										"$ref": "AAAAAAGXDfzoYJ4ZQGk="
-									},
-									"model": {
-										"$ref": "AAAAAAGXDfzoYJ4X7qI="
-									},
-									"font": "Times New Roman;8;0",
-									"parentStyle": false,
-									"left": 1768,
-									"top": 2912,
-									"width": 70.10986328125,
-									"height": 24,
-									"alpha": 1.4696105315240415,
-									"distance": 524.6837142507856,
-									"hostEdge": {
-										"$ref": "AAAAAAGXDfzoYJ4ZQGk="
-									},
-									"edgePosition": 1,
-									"text": "[Mongoose ODM + Aggregation Pipeline + MongoDB 6.0]",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"parentStyle": false,
-							"head": {
-								"$ref": "AAAAAAGXDfdqGp2DLl8="
-							},
-							"tail": {
-								"$ref": "AAAAAAGXDZ0NQsmsmZg="
-							},
-							"points": "1891:2312;1891:2400;1856:2400;1856:2402;1760:2402;1760:3056;1824:3056",
-							"descriptionLabel": {
-								"$ref": "AAAAAAGXDfzoYJ4aOjM="
-							},
-							"technologyLabel": {
-								"$ref": "AAAAAAGXDfzoYJ4bEHg="
 							}
 						},
 						{
@@ -12881,7 +12569,7 @@
 							"tail": {
 								"$ref": "AAAAAAGXDaQHAsqOEec="
 							},
-							"points": "2368:2280;2312:2280;2312:2848;2488:2848;2488:2968",
+							"points": "2368:2280;2312:2280;2312:2848;2696:2848;2696:3032",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDf7ayJ44ypk="
 							},
@@ -12910,17 +12598,17 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 2256,
-									"top": 2183,
-									"width": 29.6181640625,
-									"height": 8,
-									"alpha": -2.798569041858639,
-									"distance": 29.732137494637012,
+									"left": 2216,
+									"top": 3120,
+									"width": 112,
+									"height": 24,
+									"alpha": 1.393634103670284,
+									"distance": 930.5654195165432,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDf+u0Z5PqC4="
 									},
 									"edgePosition": 1,
-									"text": "Uses",
+									"text": "Reads from and writes - Consulta catálogo musical con índices denormalizados",
 									"wordWrap": true
 								},
 								{
@@ -12934,29 +12622,29 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 2248,
-									"top": 2127,
-									"width": 40,
-									"height": 40,
-									"alpha": -2.966920609146438,
-									"distance": 69.05070600652827,
+									"left": 2240,
+									"top": 3152,
+									"width": 64,
+									"height": 32,
+									"alpha": 1.4002018318659988,
+									"distance": 966.0227740586657,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDf+u0Z5PqC4="
 									},
 									"edgePosition": 1,
-									"text": "[ioredis + Counter Commands + TTL Semanal]",
+									"text": "[Mongoose ODM + Aggregation Pipeline + MongoDB 6.0]",
 									"wordWrap": true
 								}
 							],
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"head": {
-								"$ref": "AAAAAAGXDfdqGp2DLl8="
+								"$ref": "AAAAAAGXXlZ0gkWizsk="
 							},
 							"tail": {
 								"$ref": "AAAAAAGXDaOQgcpuhl8="
 							},
-							"points": "2624:2184;2624:2216;2280:2216;2280:3053;2112:3053",
+							"points": "2624:2184;2624:2216;2248:2216;2248:2936",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDf+u0Z5QEKM="
 							},
@@ -12985,8 +12673,8 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 2200,
-									"top": 2999,
+									"left": 2121,
+									"top": 2877,
 									"width": 29.6181640625,
 									"height": 8,
 									"alpha": 0.28177188451243196,
@@ -13009,8 +12697,8 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 2200,
-									"top": 2967,
+									"left": 2078,
+									"top": 2850,
 									"width": 66.46630859375,
 									"height": 24,
 									"alpha": 0.6676656030127659,
@@ -13031,7 +12719,7 @@
 							"tail": {
 								"$ref": "AAAAAAGXDamkUctHF+E="
 							},
-							"points": "1569:2616;1569:2928;2192:2928;2192:3024;2352:3024",
+							"points": "1569:2616;1569:2904;2552:2904;2552:3032",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDgGJHJ5rUps="
 							},
@@ -13060,17 +12748,17 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1680,
-									"top": 3135,
-									"width": 29.6181640625,
-									"height": 8,
-									"alpha": 0.16057727823372203,
-									"distance": 287.7012339215805,
+									"left": 1640,
+									"top": 2991,
+									"width": 67.98046875,
+									"height": 24,
+									"alpha": 0.27024974937898283,
+									"distance": 153.57408635573907,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDgKiaJ6D5ck="
 									},
 									"edgePosition": 1,
-									"text": "Uses",
+									"text": "Almacena relaciones usuario-artista/álbum y valoraciones",
 									"wordWrap": true
 								},
 								{
@@ -13084,29 +12772,29 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1664,
-									"top": 3087,
-									"width": 67.1962890625,
-									"height": 32,
-									"alpha": 0.19506818052482466,
-									"distance": 252.79438284898657,
+									"left": 1631,
+									"top": 3048,
+									"width": 78.3203125,
+									"height": 8,
+									"alpha": 0.19641419815513705,
+									"distance": 199.84243793548956,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDgKiaJ6D5ck="
 									},
 									"edgePosition": 1,
-									"text": "[Mongoose + Schema Validation + MongoDB Collections]",
+									"text": "[Mongoose/Read-Write]",
 									"wordWrap": true
 								}
 							],
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"head": {
-								"$ref": "AAAAAAGXDfdqGp2DLl8="
+								"$ref": "AAAAAAGXXlgSnkW1RRY="
 							},
 							"tail": {
 								"$ref": "AAAAAAGXDanXTMtYhqE="
 							},
-							"points": "1308:2760;1308:2856;1648:2856;1648:3128;1824:3128",
+							"points": "1308:2760;1308:2856;1632:2856;1632:3032;1728:3032",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDgKiaJ6ERPI="
 							},
@@ -13133,19 +12821,21 @@
 									"model": {
 										"$ref": "AAAAAAGXDgP1vJ6bRjk="
 									},
+									"fillColor": "#FFFFFF00",
+									"fontColor": "#FFFFFF",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1816,
-									"top": 2751,
-									"width": 29.6181640625,
+									"left": 1856,
+									"top": 2772,
+									"width": 85,
 									"height": 8,
-									"alpha": -4.6483740663905815,
-									"distance": 156.32018423735306,
+									"alpha": 1.1676806753621096,
+									"distance": 147.85127662620977,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDgP1vJ6dves="
 									},
 									"edgePosition": 1,
-									"text": "Uses",
+									"text": "Procesa ratings y reviews",
 									"wordWrap": true
 								},
 								{
@@ -13157,31 +12847,32 @@
 									"model": {
 										"$ref": "AAAAAAGXDgP1vJ6bRjk="
 									},
+									"fillColor": "#FFFFFF",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1848,
-									"top": 2768,
-									"width": 70.10986328125,
-									"height": 32,
-									"alpha": 1.2467037861026462,
-									"distance": 135.02962637880623,
+									"left": 1843,
+									"top": 2884,
+									"width": 80,
+									"height": 16,
+									"alpha": 0.43535318622390673,
+									"distance": 47.4236228055175,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDgP1vJ6dves="
 									},
 									"edgePosition": 1,
-									"text": "[PyMongo + Aggregation Framework + MongoDB Queries]",
+									"text": "[Mongoose + Schema Validation + MongoDB]",
 									"wordWrap": true
 								}
 							],
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"head": {
-								"$ref": "AAAAAAGXDfdqGp2DLl8="
+								"$ref": "AAAAAAGXXl3CGEYb7lg="
 							},
 							"tail": {
 								"$ref": "AAAAAAGXDa5uFMvxs7w="
 							},
-							"points": "1856:2600;1840:2600;1840:2912;1928:2912;1928:2968",
+							"points": "1856:2600;1840:2600;1840:2912;2048:2912;2048:2928",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDgP1vJ6eAok="
 							},
@@ -13256,7 +12947,7 @@
 							"tail": {
 								"$ref": "AAAAAAGXDa8gyMwh5GI="
 							},
-							"points": "2168:2616;2224:2616;2224:2928;2440:2928;2440:2968",
+							"points": "2168:2616;2224:2616;2224:2928;2628:2928;2628:3032",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDgVs957E1oQ="
 							},
@@ -13285,17 +12976,17 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1576,
-									"top": 2992,
-									"width": 29.6181640625,
-									"height": 8,
-									"alpha": -0.3883186016071851,
-									"distance": 47.53945729601885,
+									"left": 1423,
+									"top": 3118,
+									"width": 97,
+									"height": 24,
+									"alpha": -0.5557210772005214,
+									"distance": 257.7925522585942,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDgcR4J7oYSA="
 									},
 									"edgePosition": 1,
-									"text": "Uses",
+									"text": " Consulta y actualiza información del catálogo musical",
 									"wordWrap": true
 								},
 								{
@@ -13309,12 +13000,12 @@
 									},
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1556,
-									"top": 3007,
-									"width": 75.8798828125,
-									"height": 32,
-									"alpha": -0.20820589282179025,
-									"distance": 72.56721022610694,
+									"left": 1464,
+									"top": 2895,
+									"width": 96,
+									"height": 24,
+									"alpha": -1.612438986562119,
+									"distance": 96.08329719571451,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDgcR4J7oYSA="
 									},
@@ -13326,12 +13017,12 @@
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"head": {
-								"$ref": "AAAAAAGXDfdqGp1/6gw="
+								"$ref": "AAAAAAGXXk2wxUVg0iI="
 							},
 							"tail": {
 								"$ref": "AAAAAAGXDbKDkMybYQw="
 							},
-							"points": "2464:2808;2464:2952;1608:2952;1608:3080;1544:3080",
+							"points": "2464:2808;2464:2912;1608:2912;1608:3043;1568:3043",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDgcR4Z7pGJY="
 							},
@@ -13361,7 +13052,7 @@
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
 									"left": 2629,
-									"top": 2895,
+									"top": 2927,
 									"width": 23.1181640625,
 									"height": 8,
 									"alpha": 0.5123895323629764,
@@ -13385,7 +13076,7 @@
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
 									"left": 2629,
-									"top": 2919,
+									"top": 2951,
 									"width": 63.5908203125,
 									"height": 24,
 									"alpha": 0.5311776259448708,
@@ -13406,7 +13097,7 @@
 							"tail": {
 								"$ref": "AAAAAAGXDbOOpczPAQU="
 							},
-							"points": "2613:2736;2613:2968",
+							"points": "2613:2736;2613:3032",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDghooJ8a37M="
 							},
@@ -13437,7 +13128,7 @@
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
 									"left": 2512,
-									"top": 2904,
+									"top": 2936,
 									"width": 50,
 									"height": 40,
 									"alpha": -0.7109093386797787,
@@ -13462,7 +13153,7 @@
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
 									"left": 2571,
-									"top": 2816,
+									"top": 2848,
 									"width": 29.7734375,
 									"height": 16,
 									"alpha": 2.8819627532294323,
@@ -13483,12 +13174,412 @@
 							"tail": {
 								"$ref": "AAAAAAGXDbKDkMybYQw="
 							},
-							"points": "2568:2808;2568:2968",
+							"points": "2568:2808;2568:3032",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXXjaCoESZ8OY="
 							},
 							"technologyLabel": {
 								"$ref": "AAAAAAGXXjaCoESa16o="
+							}
+						},
+						{
+							"_type": "C4ContainerView",
+							"_id": "AAAAAAGXXktz9EUNqhs=",
+							"_parent": {
+								"$ref": "AAAAAAGXCW33HfxYE6M="
+							},
+							"model": {
+								"$ref": "AAAAAAGXXktz9EULP6w="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXktz9EUOYBY=",
+									"_parent": {
+										"$ref": "AAAAAAGXXktz9EUNqhs="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;1",
+									"parentStyle": true,
+									"left": 1128,
+									"top": 2986,
+									"width": 200,
+									"height": 13,
+									"text": "Base de Datos de Usuarios",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXktz9EUPzTw=",
+									"_parent": {
+										"$ref": "AAAAAAGXXktz9EUNqhs="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 1128,
+									"top": 3001,
+									"width": 200,
+									"height": 13,
+									"text": "[Container: PostgreSQL]",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXktz9EUQfLQ=",
+									"_parent": {
+										"$ref": "AAAAAAGXXktz9EUNqhs="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 1128,
+									"top": 3024,
+									"width": 200,
+									"height": 52,
+									"text": "Almacena información de usuarios, perfiles, autenticación, planes de suscripción y datos relacionados con la gestión de cuentas",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#C0392B",
+							"fontColor": "#FFFFFF",
+							"font": "Times New Roman;13;0",
+							"parentStyle": false,
+							"left": 1120,
+							"top": 2936,
+							"width": 216,
+							"height": 168,
+							"nameLabel": {
+								"$ref": "AAAAAAGXXktz9EUOYBY="
+							},
+							"technologyLabel": {
+								"$ref": "AAAAAAGXXktz9EUPzTw="
+							},
+							"descriptionLabel": {
+								"$ref": "AAAAAAGXXktz9EUQfLQ="
+							}
+						},
+						{
+							"_type": "C4ContainerView",
+							"_id": "AAAAAAGXXk2wxUVg0iI=",
+							"_parent": {
+								"$ref": "AAAAAAGXCW33HfxYE6M="
+							},
+							"model": {
+								"$ref": "AAAAAAGXXk2wxUVe4eE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXk2wxUVhiLU=",
+									"_parent": {
+										"$ref": "AAAAAAGXXk2wxUVg0iI="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;1",
+									"parentStyle": true,
+									"left": 1376,
+									"top": 2986,
+									"width": 184,
+									"height": 26,
+									"text": "Base de Datos de Catálogo Musical",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXk2wxUVif/o=",
+									"_parent": {
+										"$ref": "AAAAAAGXXk2wxUVg0iI="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 1376,
+									"top": 3014,
+									"width": 184,
+									"height": 13,
+									"text": "[Container: PostgreSQL]",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXk2wxUVjVnI=",
+									"_parent": {
+										"$ref": "AAAAAAGXXk2wxUVg0iI="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 1376,
+									"top": 3037,
+									"width": 184,
+									"height": 52,
+									"text": "Almacena metadatos estructurados de canciones, álbumes, artistas, géneros e información del catálogo musical",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#C0392B",
+							"fontColor": "#FFFFFF",
+							"font": "Times New Roman;13;0",
+							"parentStyle": false,
+							"left": 1368,
+							"top": 2936,
+							"width": 200,
+							"height": 168,
+							"nameLabel": {
+								"$ref": "AAAAAAGXXk2wxUVhiLU="
+							},
+							"technologyLabel": {
+								"$ref": "AAAAAAGXXk2wxUVif/o="
+							},
+							"descriptionLabel": {
+								"$ref": "AAAAAAGXXk2wxUVjVnI="
+							}
+						},
+						{
+							"_type": "C4ContainerView",
+							"_id": "AAAAAAGXXlZ0gkWizsk=",
+							"_parent": {
+								"$ref": "AAAAAAGXCW33HfxYE6M="
+							},
+							"model": {
+								"$ref": "AAAAAAGXXlZ0gkWgWwI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXlZ0gkWjPcA=",
+									"_parent": {
+										"$ref": "AAAAAAGXXlZ0gkWizsk="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;1",
+									"parentStyle": true,
+									"left": 2176,
+									"top": 2986,
+									"width": 184,
+									"height": 26,
+									"text": "Base de Datos de Catálogo Musical",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXlZ0gkWkaw0=",
+									"_parent": {
+										"$ref": "AAAAAAGXXlZ0gkWizsk="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 2176,
+									"top": 3014,
+									"width": 184,
+									"height": 13,
+									"text": "[Container: MongoDB]",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXlZ0gkWlPZQ=",
+									"_parent": {
+										"$ref": "AAAAAAGXXlZ0gkWizsk="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 2176,
+									"top": 3037,
+									"width": 184,
+									"height": 65,
+									"text": "Almacena documentos de canciones, álbumes, artistas, géneros y metadatos musicales con estructura flexible para búsquedas y filtrado",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#C0392B",
+							"fontColor": "#FFFFFF",
+							"font": "Times New Roman;13;0",
+							"parentStyle": false,
+							"left": 2168,
+							"top": 2936,
+							"width": 200,
+							"height": 174,
+							"nameLabel": {
+								"$ref": "AAAAAAGXXlZ0gkWjPcA="
+							},
+							"technologyLabel": {
+								"$ref": "AAAAAAGXXlZ0gkWkaw0="
+							},
+							"descriptionLabel": {
+								"$ref": "AAAAAAGXXlZ0gkWlPZQ="
+							}
+						},
+						{
+							"_type": "C4ContainerView",
+							"_id": "AAAAAAGXXlgSnkW1RRY=",
+							"_parent": {
+								"$ref": "AAAAAAGXCW33HfxYE6M="
+							},
+							"model": {
+								"$ref": "AAAAAAGXXlgSnkWz3V0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXlgSnkW2buI=",
+									"_parent": {
+										"$ref": "AAAAAAGXXlgSnkW1RRY="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;1",
+									"parentStyle": true,
+									"left": 1736,
+									"top": 2980,
+									"width": 184,
+									"height": 26,
+									"text": "Base de Datos de Biblioteca de Usuarios",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXlgSnkW3wr4=",
+									"_parent": {
+										"$ref": "AAAAAAGXXlgSnkW1RRY="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 1736,
+									"top": 3008,
+									"width": 184,
+									"height": 13,
+									"text": "[Container: MongoDB]",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXlgSnkW4+bk=",
+									"_parent": {
+										"$ref": "AAAAAAGXXlgSnkW1RRY="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 1736,
+									"top": 3031,
+									"width": 184,
+									"height": 65,
+									"text": "Almacena colecciones personales de usuarios, playlists, valoraciones, historial de reproducción y preferencias musicales",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#C0392B",
+							"fontColor": "#FFFFFF",
+							"font": "Times New Roman;13;0",
+							"parentStyle": false,
+							"left": 1728,
+							"top": 2928,
+							"width": 200,
+							"height": 181,
+							"nameLabel": {
+								"$ref": "AAAAAAGXXlgSnkW2buI="
+							},
+							"technologyLabel": {
+								"$ref": "AAAAAAGXXlgSnkW3wr4="
+							},
+							"descriptionLabel": {
+								"$ref": "AAAAAAGXXlgSnkW4+bk="
+							}
+						},
+						{
+							"_type": "C4ContainerView",
+							"_id": "AAAAAAGXXl3CGEYb7lg=",
+							"_parent": {
+								"$ref": "AAAAAAGXCW33HfxYE6M="
+							},
+							"model": {
+								"$ref": "AAAAAAGXXl3CF0YZOL0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXl3CGEYcAaY=",
+									"_parent": {
+										"$ref": "AAAAAAGXXl3CGEYb7lg="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;1",
+									"parentStyle": true,
+									"left": 1960,
+									"top": 2980,
+									"width": 184,
+									"height": 13,
+									"text": "Base de Datos de Valoraciones",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXl3CGEYdeyE=",
+									"_parent": {
+										"$ref": "AAAAAAGXXl3CGEYb7lg="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 1960,
+									"top": 2995,
+									"width": 184,
+									"height": 13,
+									"text": "[Container: MongoDB]",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGXXl3CGEYe9W4=",
+									"_parent": {
+										"$ref": "AAAAAAGXXl3CGEYb7lg="
+									},
+									"fillColor": "#C0392B",
+									"fontColor": "#FFFFFF",
+									"font": "Times New Roman;13;0",
+									"parentStyle": true,
+									"left": 1960,
+									"top": 3018,
+									"width": 184,
+									"height": 52,
+									"text": "Almacena valoraciones, reviews, comentarios y datos de interacción de usuarios con contenido musical para análisis y recomendaciones",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#C0392B",
+							"fontColor": "#FFFFFF",
+							"font": "Times New Roman;13;0",
+							"parentStyle": false,
+							"left": 1952,
+							"top": 2928,
+							"width": 200,
+							"height": 176,
+							"nameLabel": {
+								"$ref": "AAAAAAGXXl3CGEYcAaY="
+							},
+							"technologyLabel": {
+								"$ref": "AAAAAAGXXl3CGEYdeyE="
+							},
+							"descriptionLabel": {
+								"$ref": "AAAAAAGXXl3CGEYe9W4="
 							}
 						}
 					]
@@ -14087,10 +14178,10 @@
 								"$ref": "AAAAAAGXDDZEF8boLNk="
 							},
 							"target": {
-								"$ref": "AAAAAAGXC4YI7LllSWQ="
+								"$ref": "AAAAAAGXXktz9EULP6w="
 							},
 							"technology": "Sequelize ORM + Connection Pool + pg driver",
-							"description": "Reads from and writes"
+							"description": "Gestiona operaciones CRUD de usuarios y autenticación"
 						}
 					],
 					"technology": "Node.js + Express + JWT (Auth0 tokens)",
@@ -14290,10 +14381,10 @@
 								"$ref": "AAAAAAGXC3vtsLiATgY="
 							},
 							"target": {
-								"$ref": "AAAAAAGXC4YI7LllSWQ="
+								"$ref": "AAAAAAGXXk2wxUVe4eE="
 							},
 							"technology": "Sequelize ORM + Transaction Management + PostgreSQL",
-							"description": "Uses"
+							"description": " Consulta y actualiza información del catálogo musical"
 						},
 						{
 							"_type": "C4Relationship",
@@ -15140,10 +15231,10 @@
 								"$ref": "AAAAAAGXDaOQgcpsOZc="
 							},
 							"target": {
-								"$ref": "AAAAAAGXC4m2gbmDDhM="
+								"$ref": "AAAAAAGXXlZ0gkWgWwI="
 							},
-							"technology": "ioredis + Counter Commands + TTL Semanal",
-							"description": "Uses"
+							"technology": "Mongoose ODM + Aggregation Pipeline + MongoDB 6.0",
+							"description": "Reads from and writes - Consulta catálogo musical con índices denormalizados"
 						}
 					],
 					"description": "Aplica filtros avanzados"
@@ -15302,10 +15393,10 @@
 								"$ref": "AAAAAAGXDanXTMtWM6E="
 							},
 							"target": {
-								"$ref": "AAAAAAGXC4m2gbmDDhM="
+								"$ref": "AAAAAAGXXlgSnkWz3V0="
 							},
-							"technology": "Mongoose + Schema Validation + MongoDB Collections",
-							"description": "Uses"
+							"technology": "Mongoose/Read-Write",
+							"description": "Almacena relaciones usuario-artista/álbum y valoraciones"
 						}
 					],
 					"description": "Acceso a MongoDB"
@@ -15330,7 +15421,7 @@
 							"target": {
 								"$ref": "AAAAAAGXDa65c8v/kFk="
 							},
-							"technology": "Python Function Call + NumPy Arrays + scikit-learn"
+							"technology": "HuggingFace API Client + HTTP Requests + JSON Processing"
 						},
 						{
 							"_type": "C4Relationship",
@@ -15356,13 +15447,13 @@
 								"$ref": "AAAAAAGXDa5uFMvvwKE="
 							},
 							"target": {
-								"$ref": "AAAAAAGXC4m2gbmDDhM="
+								"$ref": "AAAAAAGXXl3CF0YZOL0="
 							},
-							"technology": "PyMongo + Aggregation Framework + MongoDB Queries",
-							"description": "Uses"
+							"technology": "Mongoose + Schema Validation + MongoDB",
+							"description": "Procesa ratings y reviews"
 						}
 					],
-					"description": "a"
+					"description": "Consume APIs de LLMs para generar recomendaciones"
 				},
 				{
 					"_type": "C4Component",
@@ -15384,7 +15475,7 @@
 							"target": {
 								"$ref": "AAAAAAGXDa7yCcwPmMI="
 							},
-							"technology": "scikit-learn Pipeline + pandas DataFrames + ML Models"
+							"technology": "LLM Prompt Engineering + Content Filtering + Recommendation Logic"
 						}
 					],
 					"description": "Analiza preferencias de usuario"
@@ -15426,7 +15517,7 @@
 							"technology": "ML Results + Metadata + Content Enhancement"
 						}
 					],
-					"description": "Crea listas personalizadas"
+					"description": "Procesa respuestas de LLM y genera listas de recomendaciones"
 				},
 				{
 					"_type": "C4Component",
@@ -15452,7 +15543,7 @@
 							"description": "Uses"
 						}
 					],
-					"description": "Almacena resultados precalculados"
+					"description": "Almacena recomendaciones generadas por LLM para optimizar rendimiento"
 				},
 				{
 					"_type": "C4Component",
@@ -15644,6 +15735,86 @@
 					],
 					"technology": "Hugging Face API",
 					"description": "Proveedor externo de LLM para recomendaciones musicales."
+				},
+				{
+					"_type": "C4Component",
+					"_id": "AAAAAAGXXksvxUTvQmA=",
+					"_parent": {
+						"$ref": "AAAAAAGIJ9MNFXaLtCg="
+					},
+					"name": "C4Component1"
+				},
+				{
+					"_type": "C4SoftwareSystem",
+					"_id": "AAAAAAGXXktRckT9Xqc=",
+					"_parent": {
+						"$ref": "AAAAAAGIJ9MNFXaLtCg="
+					},
+					"name": "C4SoftwareSystem2"
+				},
+				{
+					"_type": "C4Container",
+					"_id": "AAAAAAGXXktz9EULP6w=",
+					"_parent": {
+						"$ref": "AAAAAAGIJ9MNFXaLtCg="
+					},
+					"name": "Base de Datos de Usuarios",
+					"technology": "PostgreSQL",
+					"description": "Almacena información de usuarios, perfiles, autenticación, planes de suscripción y datos relacionados con la gestión de cuentas",
+					"kind": "database"
+				},
+				{
+					"_type": "C4Container",
+					"_id": "AAAAAAGXXk0POEVCJbw=",
+					"_parent": {
+						"$ref": "AAAAAAGIJ9MNFXaLtCg="
+					},
+					"name": "Base de Datos de Catálogo Musical",
+					"kind": "database"
+				},
+				{
+					"_type": "C4Container",
+					"_id": "AAAAAAGXXk2wxUVe4eE=",
+					"_parent": {
+						"$ref": "AAAAAAGIJ9MNFXaLtCg="
+					},
+					"name": "Base de Datos de Catálogo Musical",
+					"technology": "PostgreSQL",
+					"description": "Almacena metadatos estructurados de canciones, álbumes, artistas, géneros e información del catálogo musical",
+					"kind": "database"
+				},
+				{
+					"_type": "C4Container",
+					"_id": "AAAAAAGXXlZ0gkWgWwI=",
+					"_parent": {
+						"$ref": "AAAAAAGIJ9MNFXaLtCg="
+					},
+					"name": "Base de Datos de Catálogo Musical",
+					"technology": "MongoDB",
+					"description": "Almacena documentos de canciones, álbumes, artistas, géneros y metadatos musicales con estructura flexible para búsquedas y filtrado",
+					"kind": "database"
+				},
+				{
+					"_type": "C4Container",
+					"_id": "AAAAAAGXXlgSnkWz3V0=",
+					"_parent": {
+						"$ref": "AAAAAAGIJ9MNFXaLtCg="
+					},
+					"name": "Base de Datos de Biblioteca de Usuarios",
+					"technology": "MongoDB",
+					"description": "Almacena colecciones personales de usuarios, playlists, valoraciones, historial de reproducción y preferencias musicales",
+					"kind": "database"
+				},
+				{
+					"_type": "C4Container",
+					"_id": "AAAAAAGXXl3CF0YZOL0=",
+					"_parent": {
+						"$ref": "AAAAAAGIJ9MNFXaLtCg="
+					},
+					"name": "Base de Datos de Valoraciones",
+					"technology": "MongoDB",
+					"description": "Almacena valoraciones, reviews, comentarios y datos de interacción de usuarios con contenido musical para análisis y recomendaciones",
+					"kind": "database"
 				}
 			]
 		}
