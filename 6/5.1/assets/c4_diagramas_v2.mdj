@@ -3090,12 +3090,12 @@
 									"fillColor": "#FFFFFF00",
 									"font": "Times New Roman;7;0",
 									"parentStyle": false,
-									"left": 3200,
-									"top": 1903,
+									"left": 3208,
+									"top": 1975,
 									"width": 49,
 									"height": 7,
-									"alpha": -0.6929793069416981,
-									"distance": 145.57815770231468,
+									"alpha": -3.717968102652059,
+									"distance": 23.853720883753127,
 									"hostEdge": {
 										"$ref": "AAAAAAGXC61KarusY7Q="
 									},
@@ -3115,12 +3115,12 @@
 									"fillColor": "#FFFFFF00",
 									"font": "Times New Roman;7;0",
 									"parentStyle": false,
-									"left": 3288,
-									"top": 2008,
+									"left": 3304,
+									"top": 1920,
 									"width": 41,
 									"height": 7,
-									"alpha": 0.37433373755458277,
-									"distance": 30.083217912982647,
+									"alpha": 0.7641247079917933,
+									"distance": 99.72462083156798,
 									"hostEdge": {
 										"$ref": "AAAAAAGXC61KarusY7Q="
 									},
@@ -3135,9 +3135,9 @@
 								"$ref": "AAAAAAGXCbS/CP9x/tw="
 							},
 							"tail": {
-								"$ref": "AAAAAAGXC3vtsbiCm+g="
+								"$ref": "AAAAAAGXCcd/BgCKFuk="
 							},
-							"points": "3264:2496;3336:2496;3336:2000;3256:2000;3256:1872",
+							"points": "3216:2032;3216:1992;3288:1992;3288:1872",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXC61Karutssc="
 							},
@@ -4239,12 +4239,12 @@
 									"fillColor": "#FFFFFF00",
 									"font": "Times New Roman;7;0",
 									"parentStyle": false,
-									"left": 3548,
-									"top": 2132,
+									"left": 3463,
+									"top": 2048,
 									"width": 102.6162109375,
 									"height": 14,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
+									"alpha": -4.98418113145341,
+									"distance": 63.324560795950255,
 									"hostEdge": {
 										"$ref": "AAAAAAGXWfruAEJZquc="
 									},
@@ -4264,12 +4264,12 @@
 									"fillColor": "#FFFFFF00",
 									"font": "Times New Roman;7;0",
 									"parentStyle": false,
-									"left": 3525,
-									"top": 2137,
-									"width": 88.1181640625,
+									"left": 3592,
+									"top": 1920,
+									"width": 48,
 									"height": 7,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
+									"alpha": -0.262272548934646,
+									"distance": 154.27572718998928,
 									"hostEdge": {
 										"$ref": "AAAAAAGXWfruAEJZquc="
 									},
@@ -4281,12 +4281,12 @@
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"head": {
-								"$ref": "AAAAAAGXC4EnQbkInTc="
-							},
-							"tail": {
 								"$ref": "AAAAAAGXWfY5pEIw/0o="
 							},
-							"points": "3584:1872;3584:2408",
+							"tail": {
+								"$ref": "AAAAAAGXCcd/BgCKFuk="
+							},
+							"points": "3256:2072;3576:2072;3576:1872",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXWfruAEJaWeo="
 							},
@@ -4948,7 +4948,7 @@
 									"font": "Times New Roman;9;0",
 									"parentStyle": false,
 									"left": 1721,
-									"top": 1565,
+									"top": 1589,
 									"width": 87,
 									"height": 9,
 									"alpha": 1.5707963267948966,
@@ -4972,7 +4972,7 @@
 									"font": "Times New Roman;9;0",
 									"parentStyle": false,
 									"left": 1712,
-									"top": 1594,
+									"top": 1618,
 									"width": 108,
 									"height": 9,
 									"alpha": -1.4382441394764458,
@@ -4994,7 +4994,7 @@
 							"tail": {
 								"$ref": "AAAAAAGXDBQhaL9gGks="
 							},
-							"points": "1672:1584;1856:1584",
+							"points": "1672:1608;1856:1608",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDBQhaL+TvL0="
 							},
@@ -5174,7 +5174,7 @@
 									"fillColor": "#C3F2E7",
 									"font": "Times New Roman;9;1",
 									"parentStyle": true,
-									"left": 1144,
+									"left": 1152,
 									"top": 1560,
 									"width": 104,
 									"height": 18,
@@ -5190,7 +5190,7 @@
 									"fillColor": "#C3F2E7",
 									"font": "Times New Roman;9;0",
 									"parentStyle": true,
-									"left": 1144,
+									"left": 1152,
 									"top": 1580,
 									"width": 104,
 									"height": 9,
@@ -5206,7 +5206,7 @@
 									"fillColor": "#C3F2E7",
 									"font": "Times New Roman;9;0",
 									"parentStyle": true,
-									"left": 1144,
+									"left": 1152,
 									"top": 1599,
 									"width": 104,
 									"height": 18,
@@ -5217,7 +5217,7 @@
 							"fillColor": "#C3F2E7",
 							"font": "Times New Roman;9;0",
 							"parentStyle": false,
-							"left": 1136,
+							"left": 1144,
 							"top": 1552,
 							"width": 120,
 							"height": 73,
@@ -5326,7 +5326,7 @@
 									"fillColor": "#C3F2E7",
 									"font": "Times New Roman;9;1",
 									"parentStyle": true,
-									"left": 1144,
+									"left": 1152,
 									"top": 1672,
 									"width": 104,
 									"height": 18,
@@ -5342,7 +5342,7 @@
 									"fillColor": "#C3F2E7",
 									"font": "Times New Roman;9;0",
 									"parentStyle": true,
-									"left": 1144,
+									"left": 1152,
 									"top": 1692,
 									"width": 104,
 									"height": 9,
@@ -5358,7 +5358,7 @@
 									"fillColor": "#C3F2E7",
 									"font": "Times New Roman;9;0",
 									"parentStyle": true,
-									"left": 1144,
+									"left": 1152,
 									"top": 1711,
 									"width": 104,
 									"height": 18,
@@ -5369,7 +5369,7 @@
 							"fillColor": "#C3F2E7",
 							"font": "Times New Roman;9;0",
 							"parentStyle": false,
-							"left": 1136,
+							"left": 1144,
 							"top": 1664,
 							"width": 120,
 							"height": 73,
@@ -5880,7 +5880,7 @@
 									"top": 2031,
 									"width": 552,
 									"height": 13,
-									"text": "[Container: Node.js + Express + JWT]",
+									"text": "[Container: Node.js + Express + JWT (Auth0 tokens)]",
 									"wordWrap": true
 								},
 								{
@@ -5897,7 +5897,7 @@
 									"top": 2054,
 									"width": 552,
 									"height": 13,
-									"text": "Registro, autenticación y perfiles de usuario",
+									"text": "Registro y gestión de perfiles de usuario (autenticación delegada a Auth0)",
 									"wordWrap": true
 								}
 							],
@@ -6321,7 +6321,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1296,
+									"left": 1300,
 									"top": 1573,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -6343,7 +6343,7 @@
 									"fillColor": "#FFFFFF00",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1264,
+									"left": 1268,
 									"top": 1564,
 									"width": 59,
 									"height": 16,
@@ -6366,7 +6366,7 @@
 							"tail": {
 								"$ref": "AAAAAAGXDBYK7MD7cIU="
 							},
-							"points": "1256:1588;1336:1588",
+							"points": "1264:1588;1336:1588",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDX+Bjcdmh1o="
 							},
@@ -6396,7 +6396,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1314,
+									"left": 1288,
 									"top": 1625,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -6418,12 +6418,12 @@
 									"fillColor": "#FFFFFF00",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1264,
-									"top": 1647,
-									"width": 74,
-									"height": 16,
-									"alpha": -2.284886644696269,
-									"distance": 19.849433241279208,
+									"left": 1224,
+									"top": 1648,
+									"width": 110,
+									"height": 8,
+									"alpha": -2.214296902254634,
+									"distance": 15,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDYDom8d+c/4="
 									},
@@ -6441,7 +6441,7 @@
 							"tail": {
 								"$ref": "AAAAAAGXDBYK7MD7cIU="
 							},
-							"points": "1253:1625;1253:1640;1376:1640;1376:1664",
+							"points": "1200:1625;1200:1640;1376:1640;1376:1664",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDYDom8d/hSw="
 							},
@@ -6493,12 +6493,12 @@
 									"fillColor": "#FFFFFF00",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1336,
-									"top": 1513,
-									"width": 108,
-									"height": 16,
-									"alpha": 1.4382441394764458,
-									"distance": 15.132745950421556,
+									"left": 1312,
+									"top": 1520,
+									"width": 168,
+									"height": 8,
+									"alpha": 0.982793146324474,
+									"distance": 14.422205101855956,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDYIftseZ/FQ="
 									},
@@ -6546,7 +6546,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1296,
+									"left": 1300,
 									"top": 1685,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -6568,12 +6568,12 @@
 									"fillColor": "#FFFFFF00",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1269,
-									"top": 1703,
+									"left": 1273,
+									"top": 1711,
 									"width": 55.63720703125,
 									"height": 24,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
+									"alpha": -1.57079591012823,
+									"distance": 24,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDYZuosfE3fU="
 									},
@@ -6591,7 +6591,7 @@
 							"tail": {
 								"$ref": "AAAAAAGXDBkXUcFXOrU="
 							},
-							"points": "1256:1700;1336:1700",
+							"points": "1264:1700;1336:1700",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDYZuosfFuPQ="
 							},
@@ -6646,11 +6646,11 @@
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
 									"left": 1504,
-									"top": 1631,
-									"width": 73,
-									"height": 24,
-									"alpha": -1.7063238490641182,
-									"distance": 44.40720662234904,
+									"top": 1634,
+									"width": 88,
+									"height": 16,
+									"alpha": -1.6666552942928612,
+									"distance": 52.23983154643591,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDYbWisfSaA8="
 									},
@@ -6799,12 +6799,12 @@
 									"fillColor": "#FFFFFF00",
 									"font": "Times New Roman;8;0",
 									"parentStyle": false,
-									"left": 1335,
+									"left": 1312,
 									"top": 1759,
-									"width": 118,
-									"height": 16,
-									"alpha": -1.629124188873162,
-									"distance": 274.46675572826666,
+									"width": 169,
+									"height": 8,
+									"alpha": -1.614247161090291,
+									"distance": 276.2607463973121,
 									"hostEdge": {
 										"$ref": "AAAAAAGXDYd/xMfuq+I="
 									},
@@ -6822,7 +6822,7 @@
 							"tail": {
 								"$ref": "AAAAAAGXDBzA8MG1304="
 							},
-							"points": "1568:1736;1568:1752;1120:1752;1120:1584;1136:1584",
+							"points": "1568:1736;1568:1752;1120:1752;1120:1584;1144:1584",
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXDYd/xMfv4tY="
 							},
@@ -7477,7 +7477,7 @@
 									"top": 2031,
 									"width": 384,
 									"height": 13,
-									"text": "[Container: Node.js + GraphQL + DataLoader]",
+									"text": "[Container: Node.js + DataLoader]",
 									"wordWrap": true
 								},
 								{
@@ -7494,7 +7494,7 @@
 									"top": 2054,
 									"width": 384,
 									"height": 26,
-									"text": "Maneja visualización de datos del perfil, estadísticas y carruseles de contenido musical\"",
+									"text": "Construcción y entrega de perfiles completos de usuario con datos agregados de múltiples módulos",
 									"wordWrap": true
 								}
 							],
@@ -8090,7 +8090,7 @@
 									"top": 2031,
 									"width": 392,
 									"height": 13,
-									"text": "[Container: Node.js + Express + MongoDB]",
+									"text": "[Container: Node.js + Express + MongoDB + Redis]",
 									"wordWrap": true
 								},
 								{
@@ -8106,8 +8106,8 @@
 									"left": 2336,
 									"top": 2054,
 									"width": 392,
-									"height": 13,
-									"text": "Búsqueda y descubrimiento de contenido musical",
+									"height": 26,
+									"text": "Búsqueda de contenido musical con paginación basada en cursores y autocompletado con caché Redis",
 									"wordWrap": true
 								}
 							],
@@ -8705,7 +8705,7 @@
 									"top": 2471,
 									"width": 552,
 									"height": 13,
-									"text": "[Container: Node.js + Express + Mongoose]",
+									"text": "[Container: Node.js + Express + MongoDB + WebSockets]",
 									"wordWrap": true
 								},
 								{
@@ -8722,7 +8722,7 @@
 									"top": 2494,
 									"width": 552,
 									"height": 13,
-									"text": "Manejo de artistas, álbumes y valoraciones musicales\n",
+									"text": "Manejo de artistas, álbumes y valoraciones musicales con notificaciones en tiempo real",
 									"wordWrap": true
 								}
 							],
@@ -9393,7 +9393,7 @@
 									"top": 2471,
 									"width": 384,
 									"height": 13,
-									"text": "[Container: Python + Scikit-learn + Flask]",
+									"text": "[Container: Node.js + Express + HuggingFace API]",
 									"wordWrap": true
 								},
 								{
@@ -9410,7 +9410,7 @@
 									"top": 2494,
 									"width": 384,
 									"height": 26,
-									"text": "Genera recomendaciones personalizadas basadas en valoraciones y géneros preferidos (solo premium)\n",
+									"text": "Genera recomendaciones personalizadas usando LLMs basadas en valoraciones y géneros preferidos (solo premium)",
 									"wordWrap": true
 								}
 							],
@@ -10024,8 +10024,8 @@
 									"left": 2336,
 									"top": 2494,
 									"width": 384,
-									"height": 13,
-									"text": "Control de suscripciones y límites de uso",
+									"height": 26,
+									"text": "Control de suscripciones premium, procesamiento de pagos con Stripe y gestión de límites de uso con contadores en tiempo real",
 									"wordWrap": true
 								}
 							],
@@ -14163,7 +14163,7 @@
 								"$ref": "AAAAAAGXC3vtsLiATgY="
 							},
 							"source": {
-								"$ref": "AAAAAAGXC3vtsLiATgY="
+								"$ref": "AAAAAAGXCcd/BgCIncc="
 							},
 							"target": {
 								"$ref": "AAAAAAGXCY2+vv4tF+4="
@@ -15538,10 +15538,10 @@
 								"$ref": "AAAAAAGXWfY5okIuy5k="
 							},
 							"source": {
-								"$ref": "AAAAAAGXWfY5okIuy5k="
+								"$ref": "AAAAAAGXCcd/BgCIncc="
 							},
 							"target": {
-								"$ref": "AAAAAAGXC4EnQLkG7dA="
+								"$ref": "AAAAAAGXWfY5okIuy5k="
 							},
 							"technology": "HTTPS/REST",
 							"description": "Consume modelos LLM para generar recomendaciones"
