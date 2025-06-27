@@ -1,4 +1,7 @@
 # Lista Priorizada de Requisitos Funcionales - Singletone
+- [Volver al índice](/9/9.md)
+
+Puesto a que se requiere de construir la arquitectura base que cubra los principales aspectos del sistema, resulta de vital ayuda el tener una lista con los requerimientos priorizados. Estos mismos indicarán aquellos requisitos, de mayor a menor prioridad, que el equipo de Singletone deberá ir desarrollando hasta culminar con la implementación del software.
 
 ## Funcionalidad Crítica (Must Have) - Core del Sistema
 
