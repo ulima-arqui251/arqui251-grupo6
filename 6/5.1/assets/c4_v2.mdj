@@ -12400,7 +12400,7 @@
 									"showShadow": false,
 									"left": 991,
 									"top": 2584,
-									"width": 68.5302734375,
+									"width": 68.53369140625,
 									"height": 7,
 									"alpha": -5.8247459326029585,
 									"distance": 85.86617494683223,
@@ -12426,81 +12426,6 @@
 							},
 							"technologyLabel": {
 								"$ref": "AAAAAAGXDgKiaJ6FfUE="
-							}
-						},
-						{
-							"_type": "C4RelationshipView",
-							"_id": "AAAAAAGXDgcR4J7oYSA=",
-							"_parent": {
-								"$ref": "AAAAAAGXCW33HfxYE6M="
-							},
-							"model": {
-								"$ref": "AAAAAAGXDgcR4J7mDKU="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGXDgcR4Z7pGJY=",
-									"_parent": {
-										"$ref": "AAAAAAGXDgcR4J7oYSA="
-									},
-									"model": {
-										"$ref": "AAAAAAGXDgcR4J7mDKU="
-									},
-									"font": "Times New Roman;7;0",
-									"parentStyle": false,
-									"left": 2963,
-									"top": 2295,
-									"width": 81,
-									"height": 21,
-									"alpha": -1.1223565849820103,
-									"distance": 235.26155657055403,
-									"hostEdge": {
-										"$ref": "AAAAAAGXDgcR4J7oYSA="
-									},
-									"edgePosition": 1,
-									"text": " Consulta y actualiza información del catálogo musical",
-									"wordWrap": true
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGXDgcR4Z7qIc4=",
-									"_parent": {
-										"$ref": "AAAAAAGXDgcR4J7oYSA="
-									},
-									"model": {
-										"$ref": "AAAAAAGXDgcR4J7mDKU="
-									},
-									"font": "Times New Roman;7;0",
-									"parentStyle": false,
-									"left": 2759,
-									"top": 2255,
-									"width": 57,
-									"height": 28,
-									"alpha": -6.2544162440910664,
-									"distance": 139.05754204644924,
-									"hostEdge": {
-										"$ref": "AAAAAAGXDgcR4J7oYSA="
-									},
-									"edgePosition": 1,
-									"text": "[Sequelize ORM + Transaction Management + PostgreSQL]",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"parentStyle": false,
-							"head": {
-								"$ref": "AAAAAAGXXk2wxUVg0iI="
-							},
-							"tail": {
-								"$ref": "AAAAAAGXDbKDkMybYQw="
-							},
-							"points": "2656:2456;2656:2408;2792:2408;2792:2304;2832:2304",
-							"descriptionLabel": {
-								"$ref": "AAAAAAGXDgcR4Z7pGJY="
-							},
-							"technologyLabel": {
-								"$ref": "AAAAAAGXDgcR4Z7qIc4="
 							}
 						},
 						{
@@ -12581,86 +12506,6 @@
 							},
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXXktz9EUQfLQ="
-							}
-						},
-						{
-							"_type": "C4ContainerView",
-							"_id": "AAAAAAGXXk2wxUVg0iI=",
-							"_parent": {
-								"$ref": "AAAAAAGXCW33HfxYE6M="
-							},
-							"model": {
-								"$ref": "AAAAAAGXXk2wxUVe4eE="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXXk2wxUVhiLU=",
-									"_parent": {
-										"$ref": "AAAAAAGXXk2wxUVg0iI="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;8;1",
-									"parentStyle": true,
-									"left": 2840,
-									"top": 2276,
-									"width": 96,
-									"height": 16,
-									"text": "Base de Datos de Catálogo Musical",
-									"wordWrap": true
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXXk2wxUVif/o=",
-									"_parent": {
-										"$ref": "AAAAAAGXXk2wxUVg0iI="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;8;0",
-									"parentStyle": true,
-									"left": 2840,
-									"top": 2294,
-									"width": 96,
-									"height": 8,
-									"text": "[Container: PostgreSQL]",
-									"wordWrap": true
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXXk2wxUVjVnI=",
-									"_parent": {
-										"$ref": "AAAAAAGXXk2wxUVg0iI="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;8;0",
-									"parentStyle": true,
-									"left": 2840,
-									"top": 2312,
-									"width": 96,
-									"height": 24,
-									"text": "Almacena metadatos estructurados de canciones, álbumes, artistas y\n géneros",
-									"wordWrap": true
-								}
-							],
-							"fillColor": "#C0392B",
-							"fontColor": "#FFFFFF",
-							"font": "Times New Roman;8;0",
-							"parentStyle": false,
-							"left": 2832,
-							"top": 2240,
-							"width": 112,
-							"height": 115,
-							"nameLabel": {
-								"$ref": "AAAAAAGXXk2wxUVhiLU="
-							},
-							"technologyLabel": {
-								"$ref": "AAAAAAGXXk2wxUVif/o="
-							},
-							"descriptionLabel": {
-								"$ref": "AAAAAAGXXk2wxUVjVnI="
 							}
 						},
 						{
@@ -12821,86 +12666,6 @@
 							},
 							"descriptionLabel": {
 								"$ref": "AAAAAAGXXlgSnkW4+bk="
-							}
-						},
-						{
-							"_type": "C4ContainerView",
-							"_id": "AAAAAAGXXl3CGEYb7lg=",
-							"_parent": {
-								"$ref": "AAAAAAGXCW33HfxYE6M="
-							},
-							"model": {
-								"$ref": "AAAAAAGXXl3CF0YZOL0="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXXl3CGEYcAaY=",
-									"_parent": {
-										"$ref": "AAAAAAGXXl3CGEYb7lg="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;8;1",
-									"parentStyle": true,
-									"left": 880,
-									"top": 2718,
-									"width": 88,
-									"height": 16,
-									"text": "Base de Datos de Valoraciones",
-									"wordWrap": true
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXXl3CGEYdeyE=",
-									"_parent": {
-										"$ref": "AAAAAAGXXl3CGEYb7lg="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;8;0",
-									"parentStyle": true,
-									"left": 880,
-									"top": 2736,
-									"width": 88,
-									"height": 8,
-									"text": "[Container: MongoDB]",
-									"wordWrap": true
-								},
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGXXl3CGEYe9W4=",
-									"_parent": {
-										"$ref": "AAAAAAGXXl3CGEYb7lg="
-									},
-									"fillColor": "#C0392B",
-									"fontColor": "#FFFFFF",
-									"font": "Times New Roman;8;0",
-									"parentStyle": true,
-									"left": 880,
-									"top": 2754,
-									"width": 88,
-									"height": 40,
-									"text": "Almacena valoraciones y datos de interacción de usuarios con contenido musical para análisis y recomendaciones",
-									"wordWrap": true
-								}
-							],
-							"fillColor": "#C0392B",
-							"fontColor": "#FFFFFF",
-							"font": "Times New Roman;8;0",
-							"parentStyle": false,
-							"left": 872,
-							"top": 2680,
-							"width": 104,
-							"height": 123,
-							"nameLabel": {
-								"$ref": "AAAAAAGXXl3CGEYcAaY="
-							},
-							"technologyLabel": {
-								"$ref": "AAAAAAGXXl3CGEYdeyE="
-							},
-							"descriptionLabel": {
-								"$ref": "AAAAAAGXXl3CGEYe9W4="
 							}
 						},
 						{
@@ -14065,81 +13830,6 @@
 							},
 							"technologyLabel": {
 								"$ref": "AAAAAAGXYsPP9ktMllQ="
-							}
-						},
-						{
-							"_type": "C4RelationshipView",
-							"_id": "AAAAAAGXYsm8p0vAHoM=",
-							"_parent": {
-								"$ref": "AAAAAAGXCW33HfxYE6M="
-							},
-							"model": {
-								"$ref": "AAAAAAGXYsm8p0u+8O4="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGXYsm8p0vBMCM=",
-									"_parent": {
-										"$ref": "AAAAAAGXYsm8p0vAHoM="
-									},
-									"model": {
-										"$ref": "AAAAAAGXYsm8p0u+8O4="
-									},
-									"font": "Times New Roman;7;0",
-									"parentStyle": false,
-									"left": 800,
-									"top": 2735,
-									"width": 48,
-									"height": 14,
-									"alpha": -0.34367463440663615,
-									"distance": 620.2717146541506,
-									"hostEdge": {
-										"$ref": "AAAAAAGXYsm8p0vAHoM="
-									},
-									"edgePosition": 1,
-									"text": "Procesa ratings y reviews",
-									"wordWrap": true
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGXYsm8p0vCyy8=",
-									"_parent": {
-										"$ref": "AAAAAAGXYsm8p0vAHoM="
-									},
-									"model": {
-										"$ref": "AAAAAAGXYsm8p0u+8O4="
-									},
-									"font": "Times New Roman;7;0",
-									"parentStyle": false,
-									"left": 984,
-									"top": 2698,
-									"width": 48,
-									"height": 28,
-									"alpha": -0.538579248357506,
-									"distance": 465.96244483863717,
-									"hostEdge": {
-										"$ref": "AAAAAAGXYsm8p0vAHoM="
-									},
-									"edgePosition": 1,
-									"text": "[Mongoose + Schema Validation + MongoDB]",
-									"wordWrap": true
-								}
-							],
-							"font": "Times New Roman;13;0",
-							"parentStyle": false,
-							"head": {
-								"$ref": "AAAAAAGXXl3CGEYb7lg="
-							},
-							"tail": {
-								"$ref": "AAAAAAGXDa4fVMvfSbA="
-							},
-							"points": "1808:2720;1776:2720;1776:2952;1040:2952;1040:2736;976:2736",
-							"descriptionLabel": {
-								"$ref": "AAAAAAGXYsm8p0vBMCM="
-							},
-							"technologyLabel": {
-								"$ref": "AAAAAAGXYsm8p0vCyy8="
 							}
 						},
 						{
