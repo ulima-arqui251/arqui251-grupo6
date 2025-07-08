@@ -26,7 +26,7 @@ Puesto a que se requiere de construir la arquitectura base que cubra los princip
 | 12 | RF5 | Seguridad en mis datos | Gestión de Usuarios | Confianza del usuario a través de medidas de seguridad |
 | 13 | RF18 | Vista detallada de artista | Exploración Musical | Ampliamos la búsqueda del usuario |
 | 14 | RF22 | Estados de artistas y álbumes | Gestión de Biblioteca | Control de progreso en cuanto a la valoración |
-| 15 | RF24 | Límite de valoraciones semanales | Gestión de Biblioteca | Se implementa uno de los factores clave del modelo de negocio |
+| 15 | RF24 | Límite de valoraciones mensuales | Gestión de Biblioteca | Se implementa uno de los factores clave del modelo de negocio |
 | 16 | RF26 | Guardado como borrador | Gestión de Biblioteca | Funcionalidad adicional para guardar publicaciones parciales |
 | 17 | RF9 | Estadísticas personales | Visualización de Perfiles | Datos básicos que aparecen en la página de perfil |
 | 18 | RF20 | Eliminar artistas y álbumes | Gestión de Biblioteca | Complemento al modelo actual, ahora permite la eliminación de los artistas y albums no deseados |

@@ -59,7 +59,7 @@ A continuación, como parte de uno de los ingresos más importantes para el uso 
 ## 5. Diferenciación de Planes
 
 ### Límites de Valoración
-- **Preocupación**: Control granular de límites semanales para usuarios gratuitos
+- **Preocupación**: Control granular de límites mensuales para usuarios gratuitos
 - **Impacto**: Redis con TTL para contadores y WebSockets para notificaciones
 - **Riesgo**: Pérdida de contadores por expiraciones o fallas de Redis
 
