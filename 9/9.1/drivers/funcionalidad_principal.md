@@ -116,7 +116,7 @@ El flujo valida la decisión de usar comunicación síncrona entre microservicio
 - **RF10**: Biblioteca musical en perfil
 
 ### Requisitos de Soporte Activados
-- **RF24**: Límite de valoraciones semanales
+- **RF24**: Límite de valoraciones menduales
 - **RF28**: Notificación de valoraciones restantes
 - **RF22**: Estados de artistas y álbumes
 
